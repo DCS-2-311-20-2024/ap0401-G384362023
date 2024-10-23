@@ -87,6 +87,7 @@ function init() {
     ballLive = true;
     speed = 10;
     if(life<=0){
+      score = 0;
       life=3;
       resetBrick();
     }
